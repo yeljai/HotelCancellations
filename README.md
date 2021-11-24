@@ -32,7 +32,7 @@
 
 
 
-Proportion of cancelations
+    Proportion of cancelations
     0.3652
 
 
