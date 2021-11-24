@@ -1,12 +1,6 @@
 # An inquiry into hotel cancellation data
 
 
-
-
-
-    <IPython.core.display.Javascript object>
-
-
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 5000 entries, 0 to 4999
     Data columns (total 20 columns):
@@ -38,7 +32,7 @@
 
 
 
-
+Proportion of cancelations
     0.3652
 
 
@@ -199,9 +193,6 @@
 ### The distribution of some interesting categorical variables : travel agencies capture most of the bookings, Bed and Breakfast are particuarly demanded
 <p style='text-align: justify;'>For some variables, and especially the categorical ones, we can rely on counting to get sense of their occurence in the dataset. For example, the table below gives the counts of the market segments according to the operator through which the client makes her booking. In this example, we see that client usually go through online travel agencies to book a stay. In fact, travel agencies and tour operators stand as the main distribution channel of bookings in the dataset.</p>
 
-
-
-
     Online TA        0.4694
     Offline TA/TO    0.1972
     Groups           0.1752
@@ -212,19 +203,11 @@
     Name: market_segment, dtype: float64
 
 
-
-
-
-
     TA/TO        0.8130
     Direct       0.1326
     Corporate    0.0528
     GDS          0.0016
     Name: distribution_channel, dtype: float64
-
-
-
-
 
 
     BB           0.7614
@@ -270,10 +253,6 @@
 ## How do the variables interact with each other ?
 ### 1. Number of stays by market segements
 <p style='text-align: justify;'>The tables below give the cross-tabulation of the number of stays according the different market segments available in the dataset. The first observation we can make is that, across all the categories, the clients do not usually make more than two bookings a year for stays during the weekend, while they tend to book more stays during the week (up to 5 stays a year). The latter observation is particularly relevant for direct bookings, group bookings and bookings through an agency or an operator. The figure 8 and 9 below gives the densities of stays according to each market segment. Overall, the observation of right tail skewness that is observed across the whole dataset also translates at the granular level.</p>
-
-
-
-
 
 <div>
 <style scoped>
@@ -635,10 +614,7 @@
 </div>
 
 
-
-
 ![png](Hotel_Cancellations_Exploratory_files/Hotel_Cancellations_Exploratory_17_0.png)
-
 
 
 ![png](Hotel_Cancellations_Exploratory_files/Hotel_Cancellations_Exploratory_18_0.png)
@@ -646,9 +622,6 @@
 
 ### 2. Number of stays by customer type
 <p style='text-align: justify;'>We now turn to the interaction between the number of stays and the customer types in the dataset, given by the two tables below. A general observation is that, across all types, most customer have not booked more than twice weekend nights during the year, while they book much more stays (at least five) during the week. It reflects the pattern observed on the other end of the market (supply intermediaries i.e. market segments). Comparing the bookings across categories, we see that contract customer book on average more weekend nights than group or transient customers, relative to each categories' size in the data.</p>
-
-
-
 
 <div>
 <style scoped>
@@ -1160,10 +1133,6 @@ In particular, we are interested in identifying the periods where there is a hig
   </tbody>
 </table>
 </div>
-
-
-
-
 
 
 <div>
