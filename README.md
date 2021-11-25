@@ -224,7 +224,7 @@
 
 <p align="center">
 ![png](Hotel_Cancellations_Exploratory_files/Hotel_Cancellations_Exploratory_13_0.png)
-</p>
+
 
 
 ![png](Hotel_Cancellations_Exploratory_files/Hotel_Cancellations_Exploratory_13_1.png)
