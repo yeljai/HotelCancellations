@@ -1,5 +1,6 @@
 # An inquiry into hotel cancellation data
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 5000 entries, 0 to 4999
