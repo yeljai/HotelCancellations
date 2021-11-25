@@ -926,6 +926,10 @@
     
 To better capture this, we create a new variable that captures the discrepancy between reserved rooms and assigned rooms.
 
+<img src="https://render.githubusercontent.com/render/math?math=\begin{cases} 1,\quad assigned \neq reserved\\
+0, \quad otherwise
+\end{cases}">
+
 $$
 roomchanged =\begin{cases} 1,\quad assigned \neq reserved\\
 0, \quad otherwise
