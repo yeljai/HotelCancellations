@@ -4067,7 +4067,7 @@ $$
 
 
 ### KNN
-We run here the KNN selection algorithm through cross-validation. We find that the optimal model has a main metaparameter of 10 neighbors. Under this model, we produce a vector of predictions and compare it to the actual data. We follow the standard procedure of splitting the dataset into a test and a training subsets. On the test subset, we provide the usual reporting: a confusion matrix, a classification report and the ROC curve. It appears that the model under hand has a better predictive power than a simple coin toss. Most of the metrics are above the threshold of 50%. In termes of accuracy, the KNN(10) has an accuracy of 74%. However, it delivers poor results on the prediction of 1s.
+<p style='text-align: justify;'>We run here the KNN selection algorithm through cross-validation. We find that the optimal model has a main metaparameter of 10 neighbors. Under this model, we produce a vector of predictions and compare it to the actual data. We follow the standard procedure of splitting the dataset into a test and a training subsets. On the test subset, we provide the usual reporting: a confusion matrix, a classification report and the ROC curve. It appears that the model under hand has a better predictive power than a simple coin toss. Most of the metrics are above the threshold of 50%. In termes of accuracy, the KNN(10) has an accuracy of 74%. However, it delivers poor results on the prediction of 1s.
 
     /opt/anaconda3/lib/python3.8/site-packages/sklearn/base.py:441: UserWarning: X does not have valid feature names, but KNeighborsClassifier was fitted with feature names
       warnings.warn(
@@ -5634,7 +5634,7 @@ We run here the KNN selection algorithm through cross-validation. We find that t
 
 
 ### A cross-validated decision Tree
-Now we turn to decision trees, where we use a classifier to try to predict the cancellations. For that purpose we use the same cross-validation proces we used in the K-NN algorithm. We compare the nested model, that chooses and optimises the parameters of the decision tree with the non-nested model. It appears first that the difference between both type of models is not significantly different from 0. The algorithm delivers an optimal tree of a maximum of 58 leaves and a min split threshold of three. In terms of performances, being very conservative given the comparison between only 2 models (i.e. we are aware that, statistically, it is not enough), it appears that the accuracy is around 82%. The model behaves better than a coin toss both for predicting zeros and ones.
+<p style='text-align: justify;'>Now we turn to decision trees, where we use a classifier to try to predict the cancellations. For that purpose we use the same cross-validation proces we used in the K-NN algorithm. We compare the nested model, that chooses and optimises the parameters of the decision tree with the non-nested model. It appears first that the difference between both type of models is not significantly different from 0. The algorithm delivers an optimal tree of a maximum of 58 leaves and a min split threshold of three. In terms of performances, being very conservative given the comparison between only 2 models (i.e. we are aware that, statistically, it is not enough), it appears that the accuracy is around 82%. The model behaves better than a coin toss both for predicting zeros and ones.
 
     Fitting 3 folds for each of 294 candidates, totalling 882 fits
     Fitting 3 folds for each of 294 candidates, totalling 882 fits
