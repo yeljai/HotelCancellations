@@ -222,7 +222,7 @@
 ### A figure is worth a thousand word:  Distributions through plots
 <p style='text-align: justify;'>We can also capture these features graphically by plotting the densities of the numerical variables and the counts of the categorical variables. As said before, we see graphically that the numerical variables are indeed skewed to the right. Weekend stays are concentrated around none and two a year, while week stays go up to five and rarely more. The average daily rate is around 90 dollars. The market is most dominated by online travel agencies and, to a less extent, offline travel agencies. Transcient customers represent the bulk of customer type.</p>
 
-<p align="center">
+
 ![png](Hotel_Cancellations_Exploratory_files/Hotel_Cancellations_Exploratory_13_0.png)
 
 
